@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Century gothic, sans-serif;
+  background: #f8fafc;
+  background-color: #b2dfdb;
+  color: #0f172a;
+}
+
+header, nav, main, footer {
+  padding: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+nav a {
+  margin-right: 12px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+h1 { color: #0f172a; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+  }
+}
