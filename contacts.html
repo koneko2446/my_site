@@ -16,10 +16,15 @@
 </nav>
 
 <main>
-    <img src="img/avatar.jpg" alt="Фото студента">
-    <h1>Мои контакты:</h1>
-    <p>examle@gmail.com</p>
-
+    <h1>Мои контакты</h1>
+    <p>Пишите мне на почту: example@gmail.com</p>
+    <form id="contactForm">
+        <input id="name" type="text" placeholder="Ваше имя" required>
+        <input id="email" type="email" placeholder="Ваш Email" required>
+        <textarea id="comment" placeholder="Ваше сообщение"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+    <p id="formMessage"></p>
 </main>
 
 </body>
